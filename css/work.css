@@ -1,13 +1,19 @@
+html, body {
+	font-family: 'Oswald', sans-serif;
+  max-width: 100%;
+  /*overflow-x: hidden;*/
+}
+
 .work-tree {
     background-image: url(../images/Bonsai1_BW_1200x922.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 800px;
     opacity: .3;
     position: absolute;
     top: 345px;
     left: -200px;
     height: 800px;
-    width: 980px;
+    width: 570px;
     z-index: -1;
 }
 
@@ -206,22 +212,23 @@ span.plus {
 
 .reach-out a {
     display: block;
+    position: relative;
     margin: 40px auto;
     width: 250px;
     height: 50px;
     background-color: black;
     text-align: center;
     text-decoration: none;
-    border-radius: 5px;
     z-index: 1;
 }
 
 .reach-out span {
     display: block;
-    /* margin: 20px auto; */
+    font-size: 17px;
     color: white;
     padding-top: 15px;
 }
+
 
 
 a.project-link:hover {
@@ -271,12 +278,12 @@ top: -250px;
 @media (max-width: 800px) {
   .project_container {
     background-color: rgba(211, 211, 211, .3);
-    width: 90%;
+    width: 100%;
     /* height: 400px; */
     margin: 0 auto;
     text-align: center;
     padding-top: 160px;
-    overflow: auto;
+    overflow: initial;
     animation-name: slide;
     animation-iteration-count: 1;
     animation-timing-function: ease;
