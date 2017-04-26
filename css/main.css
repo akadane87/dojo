@@ -3,6 +3,7 @@
 html, body {
 	font-family: 'Oswald', sans-serif;
   max-width: 100%;
+	background-image: url(../images/starry_sky.jpg);
   /*overflow-x: hidden;*/
 }
 .main{
@@ -38,7 +39,7 @@ html, body {
 
 @media (max-width: 630px) {
 .hero {
-    height: 55%;
+    height: 410px;
     top: 100px;
 	}
 }
